@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/aneesarsh4d/shopping-cart.git'
+                git branch: 'main', url: 'https://github.com/aneesarsh4d/jenkins-shared-libraries.git'
             }
         }
         stage('build'){
