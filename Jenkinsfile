@@ -7,7 +7,7 @@ pipeline{
         maven 'maven3.10.0'
     }
     stages{
-        stage('build'){
+        stage('checkout'){
             steps{
                 git branch: 'main', url: 'https://github.com/aneesarsh4d/shopping-cart.git'
             }
